@@ -24,6 +24,7 @@ quant.UpdateScale(initScale);
 float quantizedFrequency = quant.Process(frequency);
 
 // You can also set EDO using SetSemitonesPerOctave, and multi-octave scales are possible.
+
 // Example: Prometheus Chord, C F# Bb E A D, over four octaves.
 
 quant.SetSemitonesPerOctave(12.0f);
