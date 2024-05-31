@@ -14,9 +14,11 @@ quant.Init();
 
 // initialize as a Major scale
 // {C, C#, D, D#, E, F, F#, G, G#, A, A#, B}	
+
 bool initScale[12] = {1,0,1,0,1,1,0,1,0,1,0,1};
 
 // update scale
+
 quant.UpdateScale(initScale);
 
 // Retrieve your quantized frequency
