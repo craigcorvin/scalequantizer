@@ -259,21 +259,21 @@ class ScaleQuantizer
 		}
 	}
 	// basefrequency_
-    inline void SetBaseFrequency(float basefrequency) { basefrequency_ = basefrequency; }
-    inline float GetBaseFrequency() { return basefrequency_; }
-    // semitonesperoctave_
-    inline void SetSemitonesPerOctave(float semitonesperoctave) { semitonesperoctave_ = semitonesperoctave; }
+	inline void SetBaseFrequency(float basefrequency) { basefrequency_ = basefrequency; }
+	inline float GetBaseFrequency() { return basefrequency_; }
+	// semitonesperoctave_
+	inline void SetSemitonesPerOctave(float semitonesperoctave) { semitonesperoctave_ = semitonesperoctave; }
 	inline float GetSemitonesPerOctave() { return semitonesperoctave_; }
 	// uniquenotes_
 	inline bool OnUniqueNotes() { uniquenotes_ = 1; }
 	inline bool OffUniqueNotes() { uniquenotes_ = 0; }
 	// octaverange_
-    inline void SetOctaveRange(int octaverange) { octaverange_ = octaverange; }
-    inline int GetOctaveRange() { return octaverange_; }
+	inline void SetOctaveRange(int octaverange) { octaverange_ = octaverange; }
+	inline int GetOctaveRange() { return octaverange_; }
 	// octavemodifier_
-    inline void SetOctaveModifier(int octavemodifier) { octavemodifier_ = octavemodifier; }
-    inline int GetOctaveModifier() { return octavemodifier_; }
-    // scalewithoctave_
+	inline void SetOctaveModifier(int octavemodifier) { octavemodifier_ = octavemodifier; }
+	inline int GetOctaveModifier() { return octavemodifier_; }
+	// scalewithoctave_
 	inline bool OnScaleEndsWithOctave() { scalewithoctave_ = 1; }
 	inline bool OffScaleEndsWithOctave() { scalewithoctave_ = 0; }
 	private:
